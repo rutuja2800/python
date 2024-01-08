@@ -134,7 +134,7 @@ time.sleep(2)
 dropdown_options = ['Option A', 'Option B', 'Option C', 'Option D', 'Option E']
 
 # Filter1 and Filter2 options
-Filter1_options = ['Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Orange', 'Pink', 'Brown', 'Gray', 'Black']
+Filter1_options = ['Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Orange', 'Pink', 'Brown', 'Gray', 'Black']    #Put as many filter options you want
 Filter2_options = ['Clear', 'Cloudy', 'Transparent', 'Opaque', 'Lucid', 'Obscure', 'Sheer', 'Hazy']
 
 # Specify the folder path where you want to save the screenshots
