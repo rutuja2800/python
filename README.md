@@ -1,5 +1,5 @@
 The Python script employs Selenium for web automation, targeting a specific web application. It performs a series of tasks, including logging into the application, navigating through dropdown options, applying filters to extract data, capturing screenshots for multiple filter combinations, and subsequently converting these screenshots into a consolidated PDF report for each dropdown option. The script utilizes various Selenium functions for element interaction, time management, and error handling. Customized Chrome options are configured for optimal browser behavior. The script is structured to accommodate potential changes in the web application's layout and behavior, offering a versatile solution for data extraction and reporting.
-The provided Python script is a Selenium-based automation script for a web application that involves interacting with dropdowns, input fields, and buttons to filter and capture screenshots of data, and then converting those screenshots into a PDF file. Let me provide a detailed breakdown of the script:
+Let me provide a detailed breakdown of the script:
 
 Libraries Imported:
 selenium: A web testing library used for automating browser actions.
