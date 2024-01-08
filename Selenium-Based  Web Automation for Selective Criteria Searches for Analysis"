@@ -178,19 +178,19 @@ for dropdown_option in dropdown_options:
     # Filtering by Filter1 and Filter2
     for Filter1 in Filter1_options:
         for Filter2 in Filter2_options:
-            # Set color (from) and select from dropdown
+            # Set Filter1 (from) and select from dropdown
             set_value_in_input('//*[@id="filter.Filter1.Filter1From"]/div/div[1]/div[2]', Filter1)
             click_element_by_xpath(f'//div[@id="filter.Filter1.Filter1From"]//div[text()="{Filter1}"]')
 
-            # Set color (to) and select from dropdown
+            # Set Filter1 (to) and select from dropdown
             set_value_in_input('//*[@id="filter.Filter1.Filter1To"]/div/div[1]', Filter1)
             click_element_by_xpath(f'//div[@id="filter.Filter1.Filter1To"]//div[text()="{Filter1}"]')
 
-            # Set clarity (from) and select from dropdown
+            # Set Filter2 (from) and select from dropdown
             set_value_in_input('//*[@id="filter.Filter2.Filter2From"]/div/div[1]/div[2]', Filter2)
             click_element_by_xpath(f'//div[@id="filter.Filter2.Filter2From"]//div[text()="{Filter2}"]')
 
-            # Set clarity (to) and select from dropdown
+            # Set Filter2 (to) and select from dropdown
             set_value_in_input('//*[@id="filter.Filter2.Filter2To"]/div/div[1]/div[2]', Filter2)
             click_element_by_xpath(f'//div[@id="filter.Filter2.Filter2To"]//div[text()="{Filter2}"]')
 
